@@ -1,0 +1,81 @@
+package com.grupodot.financiamientosas.business.bean;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+import javax.transaction.SystemException;
+
+import com.grupodot.financiamientosas.business.entity.Partner;
+
+import weblogic.transaction.UserTransaction;
+
+/**
+ * Session Bean implementation class ParterBean
+ */
+@Stateless
+public class ParterBean implements ParterBeanRemote {
+	
+	@PersistenceContext(unitName = "FinanciamientoPU")
+    private EntityManager entityManager;
+	
+	private UserTransaction ut;
+
+    public ParterBean() {
+        
+    }
+
+	@Override
+	public void savePartner(Partner partner) {
+		try {
+			ut.begin();
+			entityManager.persist(partner);
+			ut.commit();
+		} catch(Exception e) {
+			try {
+				ut.rollback();
+			} catch (IllegalStateException | SecurityException | SystemException se) {
+				se.printStackTrace();
+			}
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void deletePartnerById(Long idPartner) {
+		Partner partner = findPartnerById(idPartner);
+		
+		if(partner != null) {
+			entityManager.getTransaction().begin();
+			entityManager.remove(partner);
+			entityManager.getTransaction().commit();
+		}
+		
+	}
+
+	@Override
+	public void updatePartner(Partner partner) {
+		Partner currentPartner = findPartnerById(partner.getIdPartner());
+		
+		if(currentPartner != null) {
+			entityManager.getTransaction().begin();
+			currentPartner.setParterName(partner.getParterName());
+			currentPartner.setInterestRate(partner.getInterestRate());
+			currentPartner.setMaximumAmountAvailable(partner.getMaximumAmountAvailable());
+			entityManager.getTransaction().commit();
+		}
+	}
+
+	@Override
+	public List<Partner> findAllPartners() {
+		 Query query = entityManager.createQuery("select p from partner p");
+		 return query.getResultList();
+	}
+
+	@Override
+	public Partner findPartnerById(Long idPartner) {
+		return (Partner) entityManager.find(Partner.class, idPartner);
+	}
+}

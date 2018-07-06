@@ -1,0 +1,15 @@
+package com.grupodot.financiamientosas.business.bean;
+
+import javax.ejb.Remote;
+
+import com.grupodot.financiamientosas.business.entity.Partner;
+
+@Remote
+public interface ParterBeanRemote {
+	
+	/**
+	 * Return partner by customer amount 
+	 * @return List<Partner>
+	 */
+	public Partner findPartnerByAmount(int amount);
+}

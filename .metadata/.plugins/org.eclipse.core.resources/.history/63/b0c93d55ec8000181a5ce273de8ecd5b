@@ -1,0 +1,5 @@
+package com.grupodot.financiamientosas.presentation.rest;
+
+public class RestApplication {
+
+}

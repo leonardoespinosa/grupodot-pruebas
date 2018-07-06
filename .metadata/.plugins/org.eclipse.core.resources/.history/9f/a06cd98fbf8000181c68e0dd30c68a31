@@ -1,0 +1,60 @@
+package com.grupodot.financiamientosas.business.bean;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.grupodot.financiamientosas.business.entity.Partner;
+
+/**
+ * Session Bean implementation class ParterBean
+ */
+@Stateless
+public class ParterBean implements ParterBeanRemote {
+	
+	@PersistenceContext(unitName = "FinanciamientoPU")
+    private EntityManager entityManager;
+
+    public ParterBean() {
+        
+    }
+
+	@Override
+	public void savePartner(Partner partner) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deletePartnerById(Long idPartner) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updatePartner(Partner partner) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Partner> findAllPartners() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Partner findPartnerById(Long idPartner) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Partner findPartnerByName(String partnerName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

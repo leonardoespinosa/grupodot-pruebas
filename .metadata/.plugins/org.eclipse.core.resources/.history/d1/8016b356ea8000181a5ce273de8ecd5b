@@ -1,0 +1,32 @@
+package com.grupodot.financiamientosas.presentation.rest;
+
+import javax.ejb.EJB;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Response;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.grupodot.financiamientosas.business.bean.PartnerBeanRemote;
+import com.grupodot.financiamientosas.business.transfer.QuotationTO;
+
+@Path("/quotationService")
+public class QuotationService {
+	
+	@EJB(lookup="ejb.PartnerBean")
+	PartnerBeanRemote partnerBeanRemote;
+
+	@Path("{amount}") 
+	@GET
+	@Produces("application/json")
+	public Response findPartnerByAmount(@PathParam("amount") int f) throws JSONException {
+		JSONObject jsonObject = new JSONObject();
+		
+		QuotationTO finalQuotation;
+		
+		return Response.status(200).entity(jsonObject).build();
+	}
+}

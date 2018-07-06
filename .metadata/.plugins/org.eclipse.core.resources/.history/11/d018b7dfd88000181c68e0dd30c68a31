@@ -1,0 +1,20 @@
+package com.grupodot.financiamientosas.business.manager;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class PartnerMngr
+ */
+@Stateless
+@LocalBean
+public class PartnerMngr {
+
+    /**
+     * Default constructor. 
+     */
+    public PartnerMngr() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

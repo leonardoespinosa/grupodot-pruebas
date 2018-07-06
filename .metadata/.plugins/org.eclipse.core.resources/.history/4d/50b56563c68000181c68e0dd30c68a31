@@ -1,0 +1,42 @@
+package com.grupodot.financiamientosas.business.bean;
+
+import java.util.List;
+
+import javax.ejb.Remote;
+
+import com.grupodot.financiamientosas.business.entity.Partner;
+
+@Remote
+public interface ParterBeanRemote {
+
+	/**
+	 * Save new partner in DB
+	 * @param partner
+	 */
+	public void savePartner(Partner partner);
+	
+	/**
+	 * Remove specific partner in DB by id_partner
+	 * @param idPartner
+	 */
+	public void deletePartnerById(Long idPartner);
+	
+	/**
+	 * Update specific partner
+	 * @param partner
+	 */
+	public void updatePartner(Partner partner);
+	
+	/**
+	 * Return all partners 
+	 * @return List<Partner>
+	 */
+	public List<Partner> findAllPartners();
+	
+	/**
+	 * Return specific partner by id_partner
+	 * @param idPartner
+	 * @return Partner
+	 */
+	public Partner findPartnerById(Long idPartner);
+}

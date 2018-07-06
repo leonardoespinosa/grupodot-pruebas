@@ -1,0 +1,79 @@
+package com.grupodot.financiamientosas.business.bean;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
+import com.grupodot.financiamientosas.business.entity.Partner;
+import com.grupodot.financiamientosas.business.transfer.QuotationTO;
+
+/**
+ * Session Bean implementation class ParterBean
+ */
+@Stateless
+public class ParterBean implements ParterBeanRemote {
+	
+	private final int CREDIT_TERM = 36;
+	
+	@PersistenceContext(unitName = "FinanciamientoPU")
+    private EntityManager entityManager;
+
+    public ParterBean() {
+        
+    }
+    
+    @Override
+	public QuotationTO findPartnerByAmount(int amount) {
+    	TypedQuery<Partner> query = entityManager.createQuery("select p from partner p ", Partner.class);
+    	List<Partner> partnersList = query.getResultList();
+    	
+    	if(partnersList.size() > 0) {
+    		List<Partner> partnerAvailable = new ArrayList<Partner>();
+    		for (Partner partner : partnersList) {
+				if(amount <= partner.getMaximumAmountAvailable()) {
+					partnerAvailable.add(partner);
+				}
+			}
+    		
+    		if(partnerAvailable.size() > 0) {
+    			int aux = 1;
+    			int i = 1;
+    			while(i < partnerAvailable.size()) {
+    				double interestAux = partnerAvailable.get(i).getInterestRate();
+    				if(interestAux < partnerAvailable.get(aux).getInterestRate()) {
+    					aux = i;
+    				}
+    				i++;
+    			}
+    			Partner bestPartner = partnerAvailable.get(aux);
+    			return createQuotation(amount, bestPartner);
+    		} else {
+    			return null;    			
+    		}
+    	} else {
+    		return null;
+    	}
+	}
+    
+    private QuotationTO createQuotation(int amount, Partner partner) {
+    	QuotationTO customerQuotation = new QuotationTO();
+    	customerQuotation.setPartnerName(partner.getParterName());
+    	customerQuotation.setMountlyFee(getMontlyFee(amount, partner.getInterestRate()));
+
+    	// cuota mensual = monto
+    	return customerQuotation;
+    }
+    
+    private double getMontlyFee(int amount, double interest) {
+    	double monthlyInterest;
+    	double monthlyFee;
+    	
+    	monthlyInterest = (amount * interest) / 100;
+    	monthlyFee = amount / CREDIT_TERM;
+    	return monthlyInterest + monthlyFee;
+    }
+}

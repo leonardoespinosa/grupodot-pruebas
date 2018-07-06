@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+<head>
+    <title><h:outputText value="Cotizaciones" /></title>
+</head>
+<body>
+	<h3><h:outputLabel>Digite el monto del préstamo:</h:outputLabel></h3>
+	<h:form>
+		<h:inputText value="#{partnerManagedBean.amount}" id="amount">
+		<br/>
+		<h:commandButton value="Submit" action="#{partnerManagedBean.findPartnerByAmount()}"></h:commandButton>
+		<br/>
+		<br/>
+		<h:panelGrid border="1" columns="2" id="p1">
+			<h:outputText id="o1" value="Quotation:"></h:outputText>
+			<h:outputText id="quotation" value="#{partnerManagedBean.quotation}"></h:outputText>
+			<h:outputText id="o2" value="Interest Rate:"></h:outputText>
+			<h:outputText id="quotation_interestRate"
+				value="#{partnerManagedBean.quotation.interestRate}"></h:outputText>
+			<h:outputText id="o3" value="Total Payment:"></h:outputText>
+			<h:outputText id="quotation_totalPayment"
+				value="#{partnerManagedBean.quotation.totalPayment}"></h:outputText>
+			<h:outputText id="o4" value="Mountly Fee:"></h:outputText>
+			<h:outputText id="quotation_mountlyFee"
+				value="#{partnerManagedBean.quotation.mountlyFee}"></h:outputText>
+			<h:outputText id="o5" value="Partner Name:"></h:outputText>
+			<h:outputText id="quotation_partnerName"
+				value="#{partnerManagedBean.quotation.partnerName}"></h:outputText>
+		</h:panelGrid>
+	</h:form>
+</body>
+</html>

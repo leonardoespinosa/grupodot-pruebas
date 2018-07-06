@@ -1,0 +1,93 @@
+package com.grupodot.financiamientosas.business.manager;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ejb.Local;
+import javax.ejb.Stateless;
+
+import com.grupodot.financiamientosas.business.entity.Partner;
+import com.grupodot.financiamientosas.business.transfer.QuotationTO;
+
+@Stateless(name="PartnerMngr")
+@Local
+public class PartnerMngr {
+	
+	private final int CREDIT_TERM = 36;
+
+	/**
+	 * Find partner to customer quotation
+	 * @param amount
+	 * @param partnersList
+	 * @return QuotationTO
+	 */
+	public QuotationTO findPartnerByAmount(int amount, List<Partner> partnersList) {
+		if(partnersList.size() > 0) {
+    		List<Partner> partnerAvailable = new ArrayList<Partner>();
+    		for (Partner partner : partnersList) {
+				if(amount <= partner.getMaximumAmountAvailable()) {
+					partnerAvailable.add(partner);
+				}
+			}
+    		
+    		if(partnerAvailable.size() > 0) {
+    			int aux = 1;
+    			int i = 1;
+    			while(i < partnerAvailable.size()) {
+    				double interestAux = partnerAvailable.get(i).getInterestRate();
+    				if(interestAux < partnerAvailable.get(aux).getInterestRate()) {
+    					aux = i;
+    				}
+    				i++;
+    			}
+    			Partner bestPartner = partnerAvailable.get(aux);
+    			return createQuotation(amount, bestPartner);
+    		} else {
+    			return null;    			
+    		}
+    	} else {
+    		return null;
+    	}
+	}
+	
+	/**
+     * Create customer quotation
+     * @param amount
+     * @param partner
+     * @return QuotationTO
+     */
+    private QuotationTO createQuotation(int amount, Partner partner) {
+    	QuotationTO customerQuotation = new QuotationTO();
+    	customerQuotation.setPartnerName(partner.getParterName());
+    	customerQuotation.setMountlyFee(getMontlyFee(amount, partner.getInterestRate()));
+    	customerQuotation.setTotalPayment(getTotalPayment(amount, partner.getInterestRate()));
+    	customerQuotation.setInterestRate(partner.getInterestRate());
+    	return customerQuotation;
+    }
+    
+    /**
+     * Calculate monthly fee
+     * @param amount
+     * @param interest
+     * @return double
+     */
+    private double getMontlyFee(int amount, double interest) {
+    	double monthlyInterest;
+    	double monthlyFee;
+    	
+    	monthlyInterest = (amount * interest) / 100;
+    	monthlyFee = amount / CREDIT_TERM;
+    	return (double) Math.round(((monthlyInterest + monthlyFee) * 100d) / 100d);
+    }
+    
+    /**
+     * Calculate total payment
+     * @param amount
+     * @param interest
+     * @return int
+     */
+    private int getTotalPayment(int amount, double interest) {
+    	double totalInterest = amount * (interest / 100) * CREDIT_TERM;
+    	return (int) (amount + totalInterest);
+    }
+}

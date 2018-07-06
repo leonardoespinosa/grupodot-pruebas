@@ -1,0 +1,17 @@
+package com.grupodot.financiamientosas.business.manager;
+
+import javax.ejb.Local;
+import javax.ejb.Stateless;
+
+@Stateless(name="PartnerMngr")
+@Local
+public class PartnerMngr {
+
+    /**
+     * Default constructor. 
+     */
+    public PartnerMngr() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

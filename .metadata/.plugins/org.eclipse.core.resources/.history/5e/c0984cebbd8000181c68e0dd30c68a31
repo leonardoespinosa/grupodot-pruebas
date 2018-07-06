@@ -1,0 +1,5 @@
+package com.grupodot.financiamientosas.business.entity;
+
+public class Partner {
+
+}

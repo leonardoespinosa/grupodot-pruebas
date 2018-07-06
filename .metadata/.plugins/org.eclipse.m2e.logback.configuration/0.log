@@ -1,0 +1,690 @@
+2018-07-05 20:29:04,252 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-06 00:38:51,303 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-06 01:00:42,313 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-06 01:25:58,304 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.0.0/maven-war-plugin-3.0.0.jar
+2018-07-06 01:25:58,599 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.0.0/maven-war-plugin-3.0.0.jar
+2018-07-06 01:26:01,375 [Worker-83] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: financiamientosas.presentation:financiamientosas.presentation:0.0.1-SNAPSHOT @ /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/pom.xml.
+2018-07-06 01:26:01,752 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.0.0/maven-war-plugin-3.0.0.pom
+2018-07-06 01:26:01,952 [Worker-83] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.0.0/maven-war-plugin-3.0.0.pom
+2018-07-06 01:26:09,186 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:26:09,274 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 01:26:09,301 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:26:09,302 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:26:09,364 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /financiamientosas.presentation/src
+2018-07-06 01:26:09,364 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /financiamientosas.presentation/src overlaps with sources folder /financiamientosas.presentation/src
+2018-07-06 01:26:09,374 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /financiamientosas.presentation/src/test/java because it overlaps with /financiamientosas.presentation/src
+2018-07-06 01:26:10,291 [Worker-83] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-07-06 01:26:10,813 [Worker-83] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: financiamientosas.presentation:financiamientosas.presentation:0.0.1-SNAPSHOT @ /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/pom.xml.
+2018-07-06 01:26:12,543 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:26:12,582 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 01:26:12,598 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:26:12,599 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:26:12,600 [Worker-84] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 01:26:12,601 [Worker-84] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 01:26:12,689 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:26:12,768 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /financiamientosas.presentation/src
+2018-07-06 01:26:12,768 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /financiamientosas.presentation/src overlaps with sources folder /financiamientosas.presentation/src
+2018-07-06 01:26:12,771 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /financiamientosas.presentation/src/test/java because it overlaps with /financiamientosas.presentation/src
+2018-07-06 01:26:13,246 [Worker-83] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 01:26:13,256 [Worker-83] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-07-06 01:26:13,483 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:26:13,485 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 01:26:13,487 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:26:13,488 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:26:13,489 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 01:26:13,489 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 01:26:13,499 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:27:41,689 [Worker-77] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: financiamientosas.presentation:financiamientosas.presentation:0.0.1-SNAPSHOT @ /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/pom.xml.
+2018-07-06 01:27:42,203 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/javaee-api/7.0/javaee-api-7.0.pom
+2018-07-06 01:27:42,402 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/javaee-api/7.0/javaee-api-7.0.pom
+2018-07-06 01:27:42,571 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.pom
+2018-07-06 01:27:42,694 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.pom
+2018-07-06 01:27:42,772 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/all/1.5.0/all-1.5.0.pom
+2018-07-06 01:27:42,876 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/all/1.5.0/all-1.5.0.pom
+2018-07-06 01:27:42,987 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2018-07-06 01:27:43,063 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2018-07-06 01:27:43,142 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.pom
+2018-07-06 01:27:43,227 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.pom
+2018-07-06 01:27:43,329 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/javaee-api/7.0/javaee-api-7.0.jar
+2018-07-06 01:27:44,036 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/javaee-api/7.0/javaee-api-7.0.jar
+2018-07-06 01:27:44,124 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
+2018-07-06 01:27:44,292 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
+2018-07-06 01:27:44,381 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2018-07-06 01:27:44,463 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2018-07-06 01:27:46,306 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:27:46,358 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 01:27:46,361 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:27:46,362 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:27:46,362 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 01:27:46,362 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 01:27:46,367 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:27:46,529 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:27:46,572 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 01:27:46,593 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:27:46,594 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:40:03,073 [Worker-101] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: financiamientosas.presentation:financiamientosas.presentation:0.0.1-SNAPSHOT @ /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/pom.xml.
+2018-07-06 01:40:03,881 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4.pom
+2018-07-06 01:40:04,076 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4.pom
+2018-07-06 01:40:04,160 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.19.4/jersey-project-1.19.4.pom
+2018-07-06 01:40:04,325 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.19.4/jersey-project-1.19.4.pom
+2018-07-06 01:40:04,429 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/4/jvnet-parent-4.pom
+2018-07-06 01:40:04,530 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/4/jvnet-parent-4.pom
+2018-07-06 01:40:04,644 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.pom
+2018-07-06 01:40:04,729 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.pom
+2018-07-06 01:40:04,863 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20170516/json-20170516.pom
+2018-07-06 01:40:04,977 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20170516/json-20170516.pom
+2018-07-06 01:40:05,059 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-server/1.19.4/jersey-server-1.19.4.pom
+2018-07-06 01:40:05,146 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-server/1.19.4/jersey-server-1.19.4.pom
+2018-07-06 01:40:05,226 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19.4/jersey-core-1.19.4.pom
+2018-07-06 01:40:05,315 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19.4/jersey-core-1.19.4.pom
+2018-07-06 01:40:05,553 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4.jar
+2018-07-06 01:40:06,202 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4.jar
+2018-07-06 01:40:06,280 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar
+2018-07-06 01:40:06,387 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar
+2018-07-06 01:40:06,523 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20170516/json-20170516.jar
+2018-07-06 01:40:06,805 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20170516/json-20170516.jar
+2018-07-06 01:40:06,888 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-server/1.19.4/jersey-server-1.19.4.jar
+2018-07-06 01:40:07,128 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-server/1.19.4/jersey-server-1.19.4.jar
+2018-07-06 01:40:07,199 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19.4/jersey-core-1.19.4.jar
+2018-07-06 01:40:07,346 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19.4/jersey-core-1.19.4.jar
+2018-07-06 01:40:09,636 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:40:09,682 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 01:40:09,684 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:40:09,685 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:40:09,686 [Worker-101] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 01:40:09,686 [Worker-101] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 01:40:09,693 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:40:09,912 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:40:09,952 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 01:40:09,963 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:40:09,967 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:41:56,226 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:41:56,285 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 01:41:56,287 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:41:56,288 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:43:08,519 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:43:08,551 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 01:43:08,555 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:43:08,556 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:45:27,673 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:45:27,724 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 01:45:27,726 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:45:27,730 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 01:51:24,460 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:51:24,462 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 01:51:24,465 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 01:51:24,466 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:00:36,633 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:00:36,882 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:00:36,884 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:00:36,886 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:01:00,506 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:01:00,520 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:01:00,522 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:01:00,523 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:03:33,109 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:03:33,151 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:03:33,153 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:03:33,154 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:04:26,756 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:04:26,810 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:04:26,811 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:04:26,812 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:05:12,207 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-07-06 02:05:19,732 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation
+2018-07-06 02:05:19,732 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2018-07-06 02:06:01,080 [Worker-117] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:06:01,963 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:06:02,001 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:06:02,005 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:06:02,008 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:06:02,009 [Worker-118] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:06:02,009 [Worker-118] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:06:02,272 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:06:34,344 [Worker-116] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:06:34,714 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:06:34,716 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:06:34,718 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:06:34,719 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:06:34,720 [Worker-114] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:06:34,720 [Worker-114] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:06:34,747 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:10:15,412 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:10:15,429 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:10:15,431 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:10:15,431 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:10:21,713 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-07-06 02:10:26,592 [Worker-121] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation
+2018-07-06 02:10:26,592 [Worker-121] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2018-07-06 02:10:59,077 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:10:59,088 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:10:59,090 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:10:59,090 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:11:15,734 [Worker-124] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:11:16,137 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:11:16,138 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:11:16,164 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:11:16,165 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:11:16,165 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:11:16,165 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:11:16,434 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:11:24,565 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:11:24,800 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:11:24,801 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:11:24,807 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:11:24,808 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:11:24,809 [Worker-125] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:11:24,809 [Worker-125] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:11:24,818 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:14:34,272 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:14:34,304 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:14:34,306 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:14:34,307 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:15:12,479 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:15:12,481 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 02:15:12,482 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:15:12,503 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:15:16,830 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:15:16,833 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:15:16,839 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:15:16,841 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:15:26,829 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:15:26,830 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:15:26,832 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:15:26,832 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:16:16,638 [Worker-131] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:16:17,200 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:16:17,202 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:16:17,204 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:16:17,205 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:16:17,205 [Worker-132] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:16:17,205 [Worker-132] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:16:17,214 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:17:25,951 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:17:25,952 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:17:25,955 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:17:25,956 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:18:03,673 [Worker-134] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:18:04,213 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:18:04,214 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:18:04,216 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:18:04,217 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:18:04,218 [Worker-128] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:18:04,218 [Worker-128] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:18:04,225 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:21:18,193 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:21:18,236 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:21:18,238 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:21:18,238 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:23:54,635 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:23:54,722 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:23:54,724 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:23:54,724 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:23:57,802 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:23:57,803 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 02:23:57,804 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:23:57,812 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:25:22,708 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:25:22,714 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:25:22,716 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:25:22,717 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:27:17,557 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:27:17,567 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:27:17,569 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:27:17,570 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:27:24,906 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:27:24,908 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:27:24,912 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:27:24,912 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:27:29,971 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:27:29,973 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:27:29,975 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:27:29,976 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:27:45,120 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:27:45,122 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:27:45,123 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:27:45,124 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:28:02,666 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:02,670 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:28:02,672 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:02,673 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:28:25,452 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:25,453 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:28:25,454 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:25,454 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:28:33,537 [Worker-139] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:28:33,823 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:33,824 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:28:33,826 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:33,837 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:28:33,838 [Worker-142] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:28:33,838 [Worker-142] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:28:34,099 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:40,889 [Worker-131] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:28:41,381 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:41,383 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:28:41,385 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:28:41,386 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:28:41,386 [Worker-142] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:28:41,386 [Worker-142] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:28:41,391 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:32:35,039 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:32:35,094 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:32:35,096 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:32:35,096 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:33:42,827 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:33:42,829 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:33:42,831 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:33:42,832 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:34:17,143 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:34:17,145 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:34:17,146 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:34:17,147 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:34:20,865 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:34:20,868 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:34:20,870 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:34:20,871 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:35:07,011 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:35:07,016 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:35:07,018 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:35:07,019 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:35:17,988 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:35:17,991 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:35:17,993 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:35:17,994 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:41:58,175 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:41:58,230 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:41:58,232 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:41:58,233 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:42:24,975 [Worker-150] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:42:25,230 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:25,232 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:42:25,260 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:25,281 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:42:25,282 [Worker-147] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:42:25,282 [Worker-147] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:42:25,294 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:32,467 [Worker-150] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:42:32,905 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:32,907 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:42:32,909 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:32,910 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:42:32,911 [Worker-149] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:42:32,911 [Worker-149] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:42:32,923 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:42,172 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:42,172 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:42:42,174 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:42,174 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:42:50,957 [Worker-151] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:42:51,235 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:51,236 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:42:51,238 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:42:51,239 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:42:51,240 [Worker-147] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:42:51,240 [Worker-147] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:42:51,245 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:47:07,651 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:47:07,690 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:47:07,692 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:47:07,693 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:47:15,754 [Worker-156] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:47:16,045 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:47:16,046 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:47:16,080 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:47:16,095 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:47:16,095 [Worker-154] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:47:16,095 [Worker-154] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:47:16,100 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:47:21,005 [Worker-156] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 02:47:21,424 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:47:21,427 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 02:47:21,429 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 02:47:21,429 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 02:47:21,430 [Worker-154] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 02:47:21,430 [Worker-154] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 02:47:21,434 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:05:34,518 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:05:34,596 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:05:34,597 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:05:34,598 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:06:34,626 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:06:34,737 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:06:34,740 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:06:34,740 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:07:48,550 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:07:48,551 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:07:48,553 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:07:48,554 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:08:31,456 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:08:31,458 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:08:31,460 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:08:31,461 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:08:41,499 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:08:41,501 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:08:41,503 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:08:41,504 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:09:11,668 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:11,670 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:09:11,671 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:11,672 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:09:27,860 [Worker-160] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:09:28,325 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:28,377 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:09:28,402 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:28,403 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:09:28,403 [Worker-154] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:09:28,403 [Worker-154] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:09:28,670 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:34,158 [Worker-131] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:09:34,641 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:34,643 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:09:34,647 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:34,648 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:09:34,648 [Worker-131] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:09:34,649 [Worker-131] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:09:34,654 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:50,996 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:50,997 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:09:50,999 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:09:51,000 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:10:05,358 [Worker-158] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:10:05,746 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:10:05,747 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:10:05,750 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:10:05,751 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:10:05,751 [Worker-159] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:10:05,751 [Worker-159] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:10:05,759 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:11:41,332 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:11:41,453 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:11:41,455 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:11:41,456 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:11:50,719 [Worker-131] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:11:50,983 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:11:50,984 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:11:50,999 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:11:51,000 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:11:51,000 [Worker-158] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:11:51,000 [Worker-158] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:11:51,005 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:12:03,933 [Worker-161] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:12:04,356 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:12:04,357 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:12:04,359 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:12:04,360 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:12:04,360 [Worker-160] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:12:04,361 [Worker-160] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:12:04,367 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:14:54,328 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:14:54,371 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:14:54,373 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:14:54,375 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:15:01,638 [Worker-162] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:15:02,171 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:15:02,173 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:15:02,224 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:15:02,225 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:15:02,226 [Worker-159] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:15:02,226 [Worker-159] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:15:02,231 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:18:18,351 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:18:18,377 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:18:18,381 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:18:18,389 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:26:32,341 [Worker-171] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:26:32,535 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:26:32,537 [Worker-171] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:26:32,558 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:28:25,651 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:28:25,652 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:28:25,653 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:28:25,665 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:28:35,808 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:28:35,809 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:28:35,811 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:28:35,811 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:29:50,934 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:29:50,935 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:29:50,937 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:29:50,941 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:30:34,793 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:30:34,829 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:30:34,831 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:30:34,831 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:33:22,219 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:33:22,308 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:33:22,310 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:33:22,320 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:34:34,174 [Worker-175] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:34:34,219 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:34:34,220 [Worker-175] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:34:34,221 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:37:09,833 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:37:09,874 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:37:09,876 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:37:09,878 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:37:25,491 [Worker-175] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:37:26,010 [Worker-175] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:37:26,011 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:37:26,029 [Worker-175] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:37:26,044 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:37:26,044 [Worker-175] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:37:26,044 [Worker-175] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:37:26,121 [Worker-175] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:37:32,425 [Worker-173] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:37:32,904 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:37:32,905 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:37:32,908 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:37:32,908 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:37:32,909 [Worker-174] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:37:32,909 [Worker-174] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:37:32,914 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:41:27,479 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:41:27,514 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:41:27,515 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:41:27,526 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:41:39,180 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:41:39,218 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:41:39,219 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:41:39,220 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:42:59,163 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:42:59,165 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:42:59,167 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:42:59,170 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:44:01,553 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:44:01,554 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:44:01,555 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:44:01,556 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:44:10,934 [Worker-176] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:44:11,177 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:44:11,178 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:44:11,181 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:44:11,197 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:44:11,197 [Worker-174] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:44:11,197 [Worker-174] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:44:11,203 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:44:17,314 [Worker-170] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:44:17,583 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:44:17,584 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:44:17,586 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:44:17,587 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:44:17,587 [Worker-176] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:44:17,587 [Worker-176] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:44:17,591 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:46:04,620 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:46:04,650 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:46:04,651 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:46:04,661 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:46:45,469 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:46:45,530 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:46:45,534 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:46:45,540 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:47:02,431 [Worker-177] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:47:03,281 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:47:03,282 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:47:03,292 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:47:03,305 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:47:03,306 [Worker-178] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:47:03,306 [Worker-178] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:47:03,311 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:47:10,417 [Worker-177] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:47:10,868 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:47:10,870 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-06 03:47:10,873 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:47:10,873 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:47:10,874 [Worker-177] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:47:10,874 [Worker-177] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:47:10,877 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:50:41,757 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:50:41,846 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:50:41,848 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:50:41,849 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:51:01,851 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:51:01,852 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:51:01,854 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:51:01,854 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:51:17,103 [Worker-173] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:51:18,173 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:51:18,221 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:51:18,222 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:51:18,233 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:51:18,234 [Worker-181] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:51:18,234 [Worker-181] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:51:18,239 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:52:01,452 [Worker-186] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:52:01,754 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:52:01,768 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:52:01,769 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:52:01,778 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:52:01,779 [Worker-183] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:52:01,779 [Worker-183] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:52:01,783 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:53:54,477 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:53:54,506 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:53:54,508 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:53:54,517 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:56:35,096 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:56:35,157 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:56:35,159 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:56:35,160 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:56:59,359 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:56:59,409 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:56:59,411 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:56:59,412 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:57:06,897 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:06,897 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:57:06,899 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:06,915 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:57:21,715 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:21,716 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:57:21,717 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:21,718 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:57:32,551 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:57:33,031 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:33,034 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:57:33,037 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:33,038 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:57:33,038 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:57:33,038 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:57:33,044 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:50,058 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:57:50,281 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:50,282 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:57:50,284 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:57:50,285 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:57:50,285 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:57:50,285 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:57:50,290 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:58:01,171 [Worker-183] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 03:58:01,479 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:58:01,481 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 03:58:01,482 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 03:58:01,482 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 03:58:01,483 [Worker-183] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 03:58:01,483 [Worker-183] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 03:58:01,488 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:00:52,560 [Worker-183] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:00:52,861 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:00:52,914 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:00:52,916 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:00:52,916 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:00:52,917 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:00:52,917 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:00:52,920 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:04:54,154 [Worker-192] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:04:54,903 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:04:54,917 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:04:54,918 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:04:54,927 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:04:54,928 [Worker-192] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:04:54,928 [Worker-192] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:04:55,025 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:05:02,998 [Worker-189] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:05:03,424 [Worker-191] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:05:03,425 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:05:03,426 [Worker-191] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:05:03,427 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:05:03,428 [Worker-191] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:05:03,428 [Worker-191] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:05:03,431 [Worker-191] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:08:06,078 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:08:06,079 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:08:06,081 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:08:06,105 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:08:13,060 [Worker-194] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:08:13,304 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:08:13,304 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:08:13,305 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:08:13,315 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:08:13,315 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:08:13,315 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:08:13,318 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:08:18,670 [Worker-191] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:08:18,864 [Worker-195] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:08:18,865 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:08:18,866 [Worker-195] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:08:18,867 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:08:18,867 [Worker-195] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:08:18,867 [Worker-195] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:08:18,872 [Worker-195] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:11:48,317 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:11:48,403 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:11:48,404 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:11:48,405 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:12:05,393 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:05,394 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:12:05,395 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:05,396 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:12:21,395 [Worker-196] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:12:21,711 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:21,713 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:12:21,714 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:21,715 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:12:21,715 [Worker-198] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:12:21,715 [Worker-198] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:12:21,718 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:28,130 [Worker-198] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:12:28,434 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:28,435 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:12:28,436 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:28,436 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:12:28,437 [Worker-194] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:12:28,437 [Worker-194] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:12:28,439 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:36,611 [Worker-197] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:12:36,970 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:36,971 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:12:36,973 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:12:36,973 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:12:36,974 [Worker-193] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:12:36,974 [Worker-193] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:12:36,978 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:39:10,188 [Worker-216] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for financiamientosas.presentation
+2018-07-06 04:39:10,544 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:39:10,545 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 04:39:10,547 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 04:39:10,547 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardoespinosa/WSGrupoDot/financiamientosas.presentation/src/test/resources
+2018-07-06 04:39:10,548 [Worker-218] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of financiamientosas.presentation
+2018-07-06 04:39:10,548 [Worker-218] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for financiamientosas.presentation
+2018-07-06 04:39:10,552 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

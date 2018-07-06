@@ -1,0 +1,16 @@
+package com.grupodot.financiamientosas.presentation.mb;
+
+import javax.ejb.EJB;
+
+import com.grupodot.financiamientosas.business.bean.PartnerBeanRemote;
+import com.grupodot.financiamientosas.business.transfer.QuotationTO;
+
+public class PartnerManagedBean {
+
+	@EJB(lookup="ejb.PartnerBean")
+	PartnerBeanRemote partnerBeanRemote;
+	
+	public QuotationTO findPartnerByAmount(int amount) {
+		return partnerBeanRemote.findPartnerByAmount(amount);
+	}
+}

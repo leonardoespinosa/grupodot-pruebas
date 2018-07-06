@@ -1,0 +1,74 @@
+package com.grupodot.financiamientosas.business.bean;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.grupodot.financiamientosas.business.entity.Partner;
+
+/**
+ * Session Bean implementation class ParterBean
+ */
+@Stateless
+public class ParterBean implements ParterBeanRemote {
+	
+	@PersistenceContext(unitName = "FinanciamientoPU")
+    private EntityManager entityManager;
+
+    public ParterBean() {
+        
+    }
+
+	@Override
+	public void savePartner(Partner partner) {
+		entityManager.getTransaction().begin();
+		entityManager.persist(partner);
+		entityManager.getTransaction().commit();
+	}
+
+	@Override
+	public void deletePartnerById(Long idPartner) {
+		Partner partner = findPartnerById(idPartner);
+		
+		if(partner != null) {
+			entityManager.getTransaction().begin();
+			entityManager.remove(partner);
+			entityManager.getTransaction().commit();
+		}
+		
+	}
+
+	@Override
+	public void updatePartner(Partner partner) {
+		Partner currentPartner = (Partner) entityManager.find(Partner.class, partner.getIdPartner());
+		
+		if(currentPartner != null) {
+			entityManager.getTransaction().begin();
+			currentPartner.setParterName(partner.getParterName());
+			currentPartner.setInterestRate(partner.getInterestRate());
+			currentPartner.setMaximumAmountAvailable(partner.getMaximumAmountAvailable());
+			entityManager.getTransaction().commit();
+		}
+	}
+
+	@Override
+	public List<Partner> findAllPartners() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Partner findPartnerById(Long idPartner) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Partner findPartnerByName(String partnerName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

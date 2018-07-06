@@ -1,0 +1,51 @@
+package com.grupodot.financiamientosas.business.bean;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
+import com.grupodot.financiamientosas.business.entity.Partner;
+import com.grupodot.financiamientosas.business.transfer.QuotationTO;
+
+/**
+ * Session Bean implementation class ParterBean
+ */
+@Stateless
+public class ParterBean implements ParterBeanRemote {
+	
+	@PersistenceContext(unitName = "FinanciamientoPU")
+    private EntityManager entityManager;
+
+    public ParterBean() {
+        
+    }
+    
+    @Override
+	public QuotationTO findPartnerByAmount(int amount) {
+    	TypedQuery<Partner> query = entityManager.createQuery("select p from partner p ", Partner.class);
+    	List<Partner> partnersList = query.getResultList();
+    	
+    	if(partnersList.size() != 0) {
+    		List<Partner> partnerAvailable = new ArrayList<Partner>();
+    		for (Partner partner : partnersList) {
+				if(amount <= partner.getMaximumAmountAvailable()) {
+					partnerAvailable.add(partner);
+				}
+			}
+    		
+    		if(partnerAvailable.size() != 0) {
+    			for (Partner partner : partnerAvailable) {
+					
+				}
+    		} else {
+    			return null;    			
+    		}
+    	} else {
+    		return null;
+    	}
+	}
+}

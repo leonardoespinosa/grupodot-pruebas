@@ -1,0 +1,26 @@
+package com.grupodot.financiamientosas.presentation.mb;
+
+import javax.annotation.PostConstruct;
+import javax.ejb.EJB;
+import javax.faces.bean.ApplicationScoped;
+import javax.faces.bean.ManagedBean;
+
+import com.grupodot.financiamientosas.business.bean.PartnerBeanRemote;
+import com.grupodot.financiamientosas.business.transfer.QuotationTO;
+
+@ManagedBean(name = "partnerMB")
+@ApplicationScoped
+public class PartnerManagedBean {
+
+	@EJB()
+	PartnerBeanRemote partnerBeanRemote;
+	
+	@PostConstruct
+    public void init() {
+        
+    }
+	
+	public QuotationTO findPartnerByAmount(int amount) {
+		return partnerBeanRemote.findPartnerByAmount(amount);
+	}
+}

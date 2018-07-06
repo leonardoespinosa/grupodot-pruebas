@@ -1,0 +1,8 @@
+package com.grupodot.financiamientosas.business.bean;
+
+import javax.ejb.Remote;
+
+@Remote
+public interface ParterBeanRemote {
+
+}
